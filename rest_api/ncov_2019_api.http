@@ -1,0 +1,17 @@
+@baseUrl = https://apigw.nubentos.com:443
+@authorization = NEJwdkxwSFNVb0dPaWJkanFrN0ZxMmlWN3l3YTpZOHBmS2R1Y0ZhZ1I5b0xkS3hzbVk2NF9iT1lh 
+@accessToken = 3da9742f-e3c8-3f93-806d-61c69d045ae0
+POST {{baseUrl}}/token?grant_type=client_credentials
+Authorization: Basic {{authorization}}
+
+###
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/cases?country=India
+Accept: application/json
+Authorization: Bearer 3da9742f-e3c8-3f93-806d-61c69d045ae0
+
+
+
+
+
+
+
